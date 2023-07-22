@@ -1,0 +1,24 @@
+1-1 深度学习：找到一个函数
+1 function with unknown
+1. Regression:由参数通过函数输出结果
+2.Classification：由函数从多选选择中选择
+3.高级;structed Learning
+
+define loss from training data
+方法：
+1.找到一个带有未知参数weight（权重）和bias（偏移量）的model
+2.定义loss：loss：（1/n）（e1+e2+...+en）
+MAE e=|y1-y2|
+MSE e=(y1-y2)2
+
+
+optimization:
+随机选择一个w0
+计算微分
+得出一组能使loss最小的参数
+ 
+1-2
+linear model :线性模型
+model bias
+对于折线形图形使用sigmod函数或折线拟合
+y=b+cx1变式拟合，使用矩阵计算，得出神经元neutrol，一层neutrol构成layer，最终组成深度学习
